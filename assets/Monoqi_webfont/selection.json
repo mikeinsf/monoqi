@@ -1,0 +1,77 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M715.138 176.753c0.796-4.494 1.393-9.105 1.393-13.831v-82.755c0-44.213-35.971-80.167-80.184-80.167h-248.695c-44.213 0-80.184 35.954-80.184 80.167v82.755c0 4.726 0.597 9.337 1.393 13.831h-248.778v767.046c0 44.213 35.971 80.201 80.184 80.201h743.464c44.213 0 80.184-35.987 80.184-80.201v-767.046h-248.778zM373.805 162.922v-82.755c0-7.612 6.219-13.831 13.848-13.831h248.695c7.629 0 13.848 6.219 13.848 13.831v82.755c0 7.612-6.219 13.831-13.848 13.831h-248.695c-7.629 0-13.848-6.219-13.848-13.831zM897.58 943.799c0 7.645-6.219 13.864-13.848 13.864h-743.464c-7.629 0-13.848-6.219-13.848-13.864v-700.71h771.159v700.71z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"grid": 0,
+				"tags": [
+					"bag"
+				]
+			},
+			"attrs": [],
+			"properties": {
+				"order": 79,
+				"id": 0,
+				"prevSize": 32,
+				"code": 59393,
+				"name": "bag"
+			},
+			"setIdx": 0,
+			"setId": 3,
+			"iconIdx": 0
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "mnq-backoffice-webfonts",
+		"designer": "Helen"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"showQuickUse2": true,
+		"showSVGs": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "mnq-backoffice-webfonts",
+				"majorVersion": 1,
+				"minorVersion": 0,
+				"designer": "Helen"
+			},
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": false,
+			"showSelector": true,
+			"selector": "class",
+			"classSelector": ".icon",
+			"showMetrics": true,
+			"cssVars": true,
+			"showMetadata": true,
+			"showVersion": true
+		},
+		"imagePref": {
+			"prefix": "icon-",
+			"png": true,
+			"useClassSelector": true,
+			"color": 4473924,
+			"bgColor": 16777215,
+			"classSelector": ".icon",
+			"columns": 16,
+			"margin": 16,
+			"height": 32,
+			"pdf": true
+		},
+		"historySize": 100,
+		"showCodes": false,
+		"gridSize": 16
+	}
+}
