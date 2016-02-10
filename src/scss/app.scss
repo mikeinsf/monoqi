@@ -1,0 +1,11 @@
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import 'mixins';
+@include font-face(Monoqi, fonts/Monoqi_webfont);
+
+$font-stack:    Monoqi, Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}

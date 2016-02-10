@@ -1,0 +1,31 @@
+{
+  "name": "monoqi",
+  "version": "1.0.0",
+  "description": "Monoqi interview project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeinsf/monoqi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeinsf/monoqi/issues"
+  },
+  "homepage": "https://github.com/mikeinsf/monoqi#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-connect": "^2.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  },
+  "dependencies": {}
+}
