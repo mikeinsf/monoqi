@@ -2,7 +2,12 @@
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1344px" height="245.8px" viewBox="0 0 1344 245.8" enable-background="new 0 0 1344 245.8" xml:space="preserve">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M110.8,172.5c4.4,0,62.5-93.4,62.5-93.4l0,136.3c0,14.9,15.5,14.7,15.5,14.7
+	 <style type="text/css">
+	     <![CDATA[
+	     .logo-svg { fill: #333333; }
+	     ]]>
+	   </style>
+<path class="logo-svg" fill-rule="evenodd" clip-rule="evenodd" d="M110.8,172.5c4.4,0,62.5-93.4,62.5-93.4l0,136.3c0,14.9,15.5,14.7,15.5,14.7
 	l13.8,0c17.5,0,17.5-14.6,17.5-14.6l0-194.9C220.1,7.3,206.3,7,206.5,7l-34.4,0c-0.2,0-7.9,0.4-13.1,9.4L111.9,94L61.4,16.4
 	C55.5,7.2,48.5,7,48.5,7L14.3,7C0,7.2-0.1,21.3,0,21.3l0,194.2c0,14.5,15.6,14.5,15.6,14.5h16.2c15.4,0,15.1-14.3,15.1-14.3l0-135
 	C46.8,80.7,107.5,172.5,110.8,172.5z M564.3,7l-26.8,0c0,0.2-14.4,0.2-14.4,14.2l0,194.6c0,0,0,14.4,15.4,14.3h16.2

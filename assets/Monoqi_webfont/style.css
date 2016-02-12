@@ -1,16 +1,16 @@
 @font-face {
-	font-family: 'mnq-backoffice-webfonts';
-	src:url('fonts/mnq-backoffice-webfonts.eot?aossxv');
-	src:url('fonts/mnq-backoffice-webfonts.eot?aossxv#iefix') format('embedded-opentype'),
-		url('fonts/mnq-backoffice-webfonts.ttf?aossxv') format('truetype'),
-		url('fonts/mnq-backoffice-webfonts.woff?aossxv') format('woff'),
-		url('fonts/mnq-backoffice-webfonts.svg?aossxv#mnq-backoffice-webfonts') format('svg');
+	font-family: 'Monoqi';
+	src:url('fonts/Monoqi_webfont.eot?aossxv');
+	src:url('fonts/Monoqi_webfont.eot?aossxv#iefix') format('embedded-opentype'),
+		url('fonts/Monoqi_webfont.ttf?aossxv') format('truetype'),
+		url('fonts/Monoqi_webfont.woff?aossxv') format('woff'),
+		url('fonts/Monoqi_webfont.svg?aossxv#Monoqi_webfont') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 .icon {
-	font-family: 'mnq-backoffice-webfonts';
+	font-family: 'Monoqi';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;

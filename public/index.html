@@ -23,37 +23,32 @@
     <![endif]-->
   </head>
 
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+  <body onresize="arrangeGrid()">
 
     <div class="container">
+      <nav class="nav">
+          <div class="logo"></div>
+          <div class="cart"><span class="icon icon-bag"></span></div>
+      </nav>
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      <div class="categories">
+        <a href="#"><div class="category col-md-8 most-popular"><div class="label one-line">Most Popular Gifts</div></div></a>
+        <a href="#"><div class="category col-md-4 gift-certificates"><div class="label one-line">Gift Certificates</div></div></a>
+        <a href="#"><div class="category col-md-2 gifts-her"><div class="label one-line">Gifts for Her</div><div class="label two-line">Gifts<br/>for Her</div></div></a>
+        <a href="#"><div class="category col-md-2 gifts-him"><div class="label one-line">Gifts for Him</div><div class="label two-line">Gifts<br/>for Him</div></div></a>
+        <a href="#"><div class="category col-md-4 fashion-accessories"><div class="label one-line">Fashion Accessories</div></div></a>
+        <a href="#"><div class="category col-md-8 home-accessories"><div class="label one-line">Home Accessories</div></div></a>
       </div>
+    </div>
 
-    </div><!-- /.container -->
+    <div class="categories-222" style="display:none;">
+      <a href="#"><div class="category col-md-8 most-popular"><img src="img/Most_popular_gifts_rt.png"/></div></a>
+      <a href="#"><div class="category col-md-4 gift-certificates"><img src="img/Gift_certificates_rt.png"/></div></a>
+      <a href="#"><div class="category col-md-2 gifts-her"><img src="img/Gifts_for_her_sq.png"/></div></a>
+      <a href="#"><div class="category col-md-2 gifts-him"><img src="img/Gifts_for_him_sq.png"/></div></a>
+      <a href="#"><div class="category col-md-4 fashion-accessories"><img src="img/Fashion_accessories_sq.png"/></div></a>
+      <a href="#"><div class="category col-md-8 home-accessories"><img src="img/Home_accessories_rt.png"/></div></a>
+    </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -64,5 +59,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

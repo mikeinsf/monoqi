@@ -19,7 +19,7 @@ var paths = {
       dest:   './public/css'
     },
     fonts: {
-      dest:   './public/css/fonts'
+      dest:   './public/fonts'
     },
     img: {
       dest:   './public/img'
@@ -85,6 +85,8 @@ gulp.task('copy-assets', function() {
     .pipe(gulp.dest(paths.img.dest));
   gulp.src(paths.assets.src + '/Monoqi_webfont/fonts/**/*')
     .pipe(gulp.dest(paths.fonts.dest));
+  gulp.src(paths.bower + '/bootstrap-sass/assets/fonts/bootstrap/**/*')
+    .pipe(gulp.dest(paths.fonts.dest + '/bootstrap'));
 });
 
 gulp.task('copy-index', function() {
@@ -102,6 +104,7 @@ gulp.task('copy-js', function() {
 gulp.task('copy', ['copy-css', 'copy-assets', 'copy-index', 'copy-js']);
 
 gulp.task('watch', function() {
+  gulp.watch(paths.js.src, ['copy-js']); 
   gulp.watch(paths.sass.src, ['sass']); 
   gulp.watch(paths.index.src, ['copy-index']); 
 });
